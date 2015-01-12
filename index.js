@@ -15,11 +15,11 @@ require.config({
 			"troopjs-i18n/service"
 		], function (Application, I18NService) {
 			jQuery(function ($) {
-				Application($("html"), "application", I18NService.create({
+				Application($("html"), "application", I18NService.extend({
 					"hub/i18n/fetch": function (key, value) {
 						return [ key, [ key, "TEST" ].join(":") ];
 					}
-				})).start();
+				})()).start();
 			});
 		});
 	}
