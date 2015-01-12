@@ -14,7 +14,9 @@ define([
 				? UNDEFINED
 				: hub.publish("i18n/get", translationKey)
 					.spread(function (key, value) {
-						return me.text(value);
+						return value === UNDEFINED
+							? UNDEFINED
+							: me.text(value);
 					});
 		}
 	});
