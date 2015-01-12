@@ -1,0 +1,21 @@
+{
+  "name": "troopjs-i18n-widget",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "troopjs-i18n": "master",
+    "troopjs-widget": "master"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1"
+  }
+}
