@@ -12,7 +12,7 @@ define([
 
 			return translationKey === UNDEFINED
 				? UNDEFINED
-				: hub.publish("i18n/get", translationKey)
+				: hub.publish("l10n/get", translationKey)
 					.spread(function (key, value) {
 						return value === UNDEFINED
 							? UNDEFINED

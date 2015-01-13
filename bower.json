@@ -1,5 +1,5 @@
 {
-  "name": "troopjs-i18n-widget",
+  "name": "troopjs-l10n-widget",
   "moduleType": [
     "amd"
   ],
@@ -12,7 +12,7 @@
     "tests"
   ],
   "dependencies": {
-    "troopjs-i18n": "master",
+    "troopjs-l10n": "master",
     "troopjs-widget": "master"
   },
   "devDependencies": {
