@@ -6,6 +6,8 @@ define([
 	var $ELEMENT = "$element";
 
 	return Widget.extend({
+		"displayName": "l10n-widget/text",
+
 		"sig/start": function () {
 			var me = this;
 			var translationKey = me[$ELEMENT].data("translationKey");

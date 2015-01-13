@@ -1,5 +1,5 @@
 {
-  "name": "troopjs-l10n-widget",
+  "name": "troopjs-contrib-l10n-widget",
   "moduleType": [
     "amd"
   ],

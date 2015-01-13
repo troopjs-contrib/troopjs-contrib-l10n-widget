@@ -5,7 +5,7 @@ require.config({
 		"location": "jquery/dist",
 		"main": "jquery"
 	}, {
-		"name": "troopjs-l10n-widget",
+		"name": "troopjs-contrib-l10n-widget",
 		"location": ".."
 	}],
 	"deps": [ "jquery", "require", "troopjs/main", "troopjs-widget/main" ],
